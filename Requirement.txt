@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+streamlit
+pickle-mixin
+matplotlib
+seaborn
+plotly
+altair<5
+standard-imghdr
