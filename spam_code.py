@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import pickle
-import imghdr
 import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -91,8 +90,3 @@ if st.button("Predict"):
         st.error("🚫 Spam Email")
     else:
         st.success("✅ Not Spam Email")
-uploaded_file = st.file_uploader("Upload an image")
-
-if uploaded_file is not None:
-    file_type = imghdr.what(uploaded_file)
-    st.write("Image Type:", file_type)
