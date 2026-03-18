@@ -5,5 +5,5 @@ streamlit
 matplotlib
 seaborn
 plotly
-altair<5
+altair < 5
 standard-imghdr
