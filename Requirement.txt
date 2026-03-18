@@ -1,9 +1,9 @@
-pandas
 numpy
+pandas
 scikit-learn
 streamlit
-pickle-mixin
 matplotlib
 seaborn
 plotly
 altair<5
+pickle-mixin
