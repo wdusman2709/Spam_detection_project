@@ -91,7 +91,6 @@ if st.button("Predict"):
         st.error("🚫 Spam Email")
     else:
         st.success("✅ Not Spam Email")
-==
 uploaded_file = st.file_uploader("Upload an image")
 
 if uploaded_file is not None:
